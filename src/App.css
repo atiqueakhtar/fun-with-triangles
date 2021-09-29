@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+nav { 
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+.nav-list {
+  text-align: end;
+}
+.nav-list-item {
+  display: inline;
+  margin: 0.8rem;
+}
+.nav-list-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.quiz-list-item{
+  margin: 2.5rem;
+}
+.quiz-list{
+  list-style-position: inside;
+  padding-inline-start: 0px;
+}
+.quiz-options{
+  margin: .8rem;
+}
+#quiz-result{
+  margin: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+#angle-result{
+  margin: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+#hypo-result{
+  margin: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+.angle-label{
+  display: block;
+  font-size: large;
+  margin: 1.5rem;
+}
+.angle-input{
+  padding: .5rem;
+  font-size: large;
+  border-radius: 5px;
+}
+button{
+  display: block;
+  margin: 1rem auto;
+}

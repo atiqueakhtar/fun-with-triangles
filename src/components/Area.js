@@ -9,7 +9,7 @@ export default function Area() {
   }
   return (
     <div>
-      <h1>Calculate the Area of a triaangle</h1>
+      <h1>Calculate the Area of a triangle</h1>
       <label className="angle-label" htmlFor="base1">Enter base value (a)</label>
       <input className="angle-input" id="base1" type="number" placeholder="Base.." />
       <label className="angle-label" htmlFor="height1">Enter height value (a)</label>
